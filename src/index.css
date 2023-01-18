@@ -1,0 +1,117 @@
+body{
+
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.app{
+    color: white;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+header{
+    /* background: #000; */
+    width: 100%;
+    min-height: 90vh;
+}
+.ilustracion rect {
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.ilustracion #flat1{
+    transform-origin:center;
+    animation: flat 2s 2s infinite ease-in-out ;
+}
+
+header .nav{
+    
+    height: 3.3rem;
+ 
+    background: rgba( 7, 0, 253, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+   
+
+  
+}
+h2{
+    color: yellow;
+}
+
+h3 > span{
+    color: yellow;
+}
+.skill{
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.skill-container {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    column-gap: 2rem;
+    row-gap: 3rem;
+   place-items: center;
+}
+.skill-container > div{
+    
+    line-height: 7rem;
+}
+.project-item{
+   
+    height: 35rem;
+}
+.sliderImg{
+display: grid;
+gap: 20px;
+justify-content: center;
+align-items: center;
+    width: 40rem;
+    height: 100%;
+    
+   
+}
+.sliderImg > img{
+    object-fit: cover;
+    height: 34rem;
+    width:100% ;
+    
+}
+.contact{
+    background: #485563;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+@keyframes flat {
+    100%{
+        transform: unset;
+    }
+    50%{
+        transform: rotateY(20deg);
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: 3.3rem ;
+}
