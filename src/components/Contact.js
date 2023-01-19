@@ -31,8 +31,8 @@ const Contact = ({ textContent }) => {
 
           <h4>{socialH4}</h4>
           <div>
-            <a href="#" className="btn btn-outline-success m-3">{githubLink}</a>
-            <a href="#" className="btn btn-outline-success m-3">{linkinLink}</a>
+            <a href="https://github.com/IvanSantana15" className="btn btn-outline-success m-3">{githubLink}</a>
+            <a href="https://www.linkedin.com/in/ivan-santana-57a9a822b/" className="btn btn-outline-success m-3">{linkinLink}</a>
             <button>{resumeBtn}</button>
           </div>
 
